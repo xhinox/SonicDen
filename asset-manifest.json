@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sonicden/static/css/main.4272e35b.chunk.css",
-    "main.js": "/sonicden/static/js/main.7bb770da.chunk.js",
-    "main.js.map": "/sonicden/static/js/main.7bb770da.chunk.js.map",
+    "main.css": "/sonicden/static/css/main.180b6bfb.chunk.css",
+    "main.js": "/sonicden/static/js/main.554f00c8.chunk.js",
+    "main.js.map": "/sonicden/static/js/main.554f00c8.chunk.js.map",
     "runtime~main.js": "/sonicden/static/js/runtime~main.4a581c56.js",
     "runtime~main.js.map": "/sonicden/static/js/runtime~main.4a581c56.js.map",
-    "static/js/2.48ac0861.chunk.js": "/sonicden/static/js/2.48ac0861.chunk.js",
-    "static/js/2.48ac0861.chunk.js.map": "/sonicden/static/js/2.48ac0861.chunk.js.map",
+    "static/js/2.dd6bfb99.chunk.js": "/sonicden/static/js/2.dd6bfb99.chunk.js",
+    "static/js/2.dd6bfb99.chunk.js.map": "/sonicden/static/js/2.dd6bfb99.chunk.js.map",
     "index.html": "/sonicden/index.html",
-    "precache-manifest.b9f781f83e77ae9a6be007a385f8281f.js": "/sonicden/precache-manifest.b9f781f83e77ae9a6be007a385f8281f.js",
+    "precache-manifest.9d86ab0e572a9fdff6fad1af01cb8792.js": "/sonicden/precache-manifest.9d86ab0e572a9fdff6fad1af01cb8792.js",
     "service-worker.js": "/sonicden/service-worker.js",
-    "static/css/main.4272e35b.chunk.css.map": "/sonicden/static/css/main.4272e35b.chunk.css.map",
+    "static/css/main.180b6bfb.chunk.css.map": "/sonicden/static/css/main.180b6bfb.chunk.css.map",
     "static/media/fondo.jpg": "/sonicden/static/media/fondo.9d44e292.jpg"
   }
 }
