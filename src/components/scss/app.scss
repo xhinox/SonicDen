@@ -1,0 +1,9 @@
+body {
+	background-color: black;
+	background: url("/assets/img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@import "./animation.scss";
+@import "./header.scss";

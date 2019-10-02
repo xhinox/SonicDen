@@ -1,0 +1,22 @@
+.bg-dark {
+	background-color: rgba(52, 58, 64, 0.25) !important;
+}
+
+.navbar-nav {
+	justify-content: space-between;
+	margin-left: 10%;
+	width: 80%;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+
+	&:hover,
+	&.active {
+		color: rgba(255, 255, 255, 1);
+		border-bottom: 1px solid white;
+	}
+}

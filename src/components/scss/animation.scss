@@ -1,0 +1,206 @@
+.intro {
+	align-items: center;
+	background: black;
+	color: white;
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	width: 100vw;
+	z-index: 9999;
+}
+
+.animation,
+.name,
+.subtitle {
+	display: block;
+	height: auto;
+}
+
+.animation,
+.name {
+	width: 500px;
+}
+
+.subtitle {
+	margin-top: 20px;
+	width: 265px;
+}
+
+.name,
+.subtitle {
+	opacity: 0;
+}
+
+rect {
+	fill: #6a8695;
+	width: 3px;
+}
+
+path {
+	fill: #ffffff;
+}
+
+.up {
+	margin-bottom: 2px;
+}
+
+.up rect:nth-of-type(6n + 1),
+.up rect:nth-of-type(6n + 2),
+.up rect:nth-of-type(6n + 3),
+.up rect:nth-of-type(6n + 4),
+.up rect:nth-of-type(6n + 5),
+.up rect:nth-of-type(6n + 6) {
+	animation-name: unos;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	will-change: transform;
+	transform-origin: bottom;
+	transition: 0.5s;
+}
+
+.up rect:nth-of-type(6n + 1) {
+	animation-delay: -1.9s;
+}
+.up rect:nth-of-type(6n + 2) {
+	animation-delay: -2.9s;
+}
+.up rect:nth-of-type(6n + 3) {
+	animation-delay: -3.9s;
+}
+.up rect:nth-of-type(6n + 4) {
+	animation-delay: -4.9s;
+}
+.up rect:nth-of-type(6n + 5) {
+	animation-delay: -5.9s;
+}
+.up rect:nth-of-type(6n + 6) {
+	animation-delay: -6.9s;
+}
+
+.down rect:nth-of-type(6n + 1),
+.down rect:nth-of-type(6n + 2),
+.down rect:nth-of-type(6n + 3),
+.down rect:nth-of-type(6n + 4),
+.down rect:nth-of-type(6n + 5),
+.down rect:nth-of-type(6n + 6) {
+	animation-name: unos;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	will-change: transform;
+	transform-origin: top;
+	transition: 0.5s;
+}
+
+.down rect:nth-of-type(6n + 1) {
+	animation-delay: -1.5s;
+}
+.down rect:nth-of-type(6n + 2) {
+	animation-delay: -2.5s;
+}
+.down rect:nth-of-type(6n + 3) {
+	animation-delay: -3.5s;
+}
+.down rect:nth-of-type(6n + 4) {
+	animation-delay: -4.5s;
+}
+.down rect:nth-of-type(6n + 5) {
+	animation-delay: -5.5s;
+}
+.down rect:nth-of-type(6n + 6) {
+	animation-delay: -6.5s;
+}
+
+.name {
+	animation-name: nombre;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	will-change: transform;
+	transition: 0.5s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+}
+
+.subtitle {
+	animation-name: nombre;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	will-change: transform;
+	transition: 0.5s;
+	animation-delay: 5.5s;
+	animation-fill-mode: forwards;
+}
+
+.dissapear {
+	animation-name: go;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	will-change: transform;
+	animation-fill-mode: forwards;
+}
+
+@keyframes unos {
+	0% {
+		transform: scaleY(1);
+	}
+	8% {
+		transform: scaleY(0.6);
+	}
+	16% {
+		transform: scaleY(0.7);
+	}
+	24% {
+		transform: scaleY(0.4);
+	}
+	32% {
+		transform: scaleY(0.8);
+	}
+	40% {
+		transform: scaleY(0.5);
+	}
+	48% {
+		transform: scaleY(1);
+	}
+	56% {
+		transform: scaleY(0.8);
+	}
+	64% {
+		transform: scaleY(0.4);
+	}
+	72% {
+		transform: scaleY(0.7);
+	}
+	80% {
+		transform: scaleY(0.8);
+	}
+	88% {
+		transform: scaleY(0.5);
+	}
+	96% {
+		transform: scaleY(0.3);
+	}
+	100% {
+		transform: scaleY(1);
+	}
+}
+
+@keyframes nombre {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100;
+	}
+}
+
+@keyframes go {
+	0% {
+		opacity: 100;
+	}
+	100% {
+		opacity: 0;
+	}
+}
