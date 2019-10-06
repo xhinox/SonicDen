@@ -2,10 +2,27 @@
 	background-color: rgba(52, 58, 64, 0.25) !important;
 }
 
+.navbar-collapse {
+	@media screen and (min-width: 768px) {
+		justify-content: flex-end;
+	}
+}
+
+.navbar-brand img {
+	height: auto;
+	width: 100px;
+	@media screen and (min-width: 768px) {
+		width: 150px;
+	}
+}
+
 .navbar-nav {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
-	margin-left: 10%;
-	width: 80%;
+	@media screen and (min-width: 768px) {
+		width: 600px;
+	}
 }
 
 .navbar-collapse .navbar-nav .nav-link {
@@ -13,10 +30,10 @@
 	line-height: 35px;
 	text-align: center;
 	text-transform: uppercase;
+}
 
-	&:hover,
-	&.active {
-		color: rgba(255, 255, 255, 1);
-		border-bottom: 1px solid white;
-	}
+.navbar-collapse .navbar-nav .nav-link:hover,
+.navbar-collapse .navbar-nav .nav-link.active {
+	color: rgba(255, 255, 255, 1);
+	border-bottom: 1px solid white;
 }

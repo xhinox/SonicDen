@@ -1,13 +1,22 @@
 .intro {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 	background: black;
 	color: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	height: 100vh;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
 	position: absolute;
-	width: 100vw;
+	// width: 100vw;
 	z-index: 9999;
 }
 
@@ -20,12 +29,25 @@
 
 .animation,
 .name {
-	width: 500px;
+	width: 230px;
+	@media screen and (min-width: 768px) {
+		width: 500px;
+	}
 }
 
 .subtitle {
-	margin-top: 20px;
-	width: 265px;
+	width: 120px;
+	@media screen and (min-width: 768px) {
+		margin-top: 25px;
+		width: 265px;
+	}
+}
+
+.animation {
+	line-height: 1px;
+	@media screen and (min-width: 768px) {
+		line-height: 25px;
+	}
 }
 
 .name,
@@ -52,31 +74,43 @@ path {
 .up rect:nth-of-type(6n + 4),
 .up rect:nth-of-type(6n + 5),
 .up rect:nth-of-type(6n + 6) {
+	-webkit-animation-name: unos;
 	animation-name: unos;
+	-webkit-animation-duration: 3s;
 	animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
 	animation-timing-function: ease-in-out;
 	will-change: transform;
+	-webkit-transform-origin: bottom;
 	transform-origin: bottom;
+	-webkit-transition: 0.5s;
 	transition: 0.5s;
 }
 
 .up rect:nth-of-type(6n + 1) {
+	-webkit-animation-delay: -1.9s;
 	animation-delay: -1.9s;
 }
 .up rect:nth-of-type(6n + 2) {
+	-webkit-animation-delay: -2.9s;
 	animation-delay: -2.9s;
 }
 .up rect:nth-of-type(6n + 3) {
+	-webkit-animation-delay: -3.9s;
 	animation-delay: -3.9s;
 }
 .up rect:nth-of-type(6n + 4) {
+	-webkit-animation-delay: -4.9s;
 	animation-delay: -4.9s;
 }
 .up rect:nth-of-type(6n + 5) {
+	-webkit-animation-delay: -5.9s;
 	animation-delay: -5.9s;
 }
 .up rect:nth-of-type(6n + 6) {
+	-webkit-animation-delay: -6.9s;
 	animation-delay: -6.9s;
 }
 
@@ -86,104 +120,214 @@ path {
 .down rect:nth-of-type(6n + 4),
 .down rect:nth-of-type(6n + 5),
 .down rect:nth-of-type(6n + 6) {
+	-webkit-animation-name: unos;
 	animation-name: unos;
+	-webkit-animation-duration: 3s;
 	animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
 	animation-timing-function: ease-in-out;
 	will-change: transform;
+	-webkit-transform-origin: top;
 	transform-origin: top;
+	-webkit-transition: 0.5s;
 	transition: 0.5s;
 }
 
 .down rect:nth-of-type(6n + 1) {
+	-webkit-animation-delay: -1.5s;
 	animation-delay: -1.5s;
 }
 .down rect:nth-of-type(6n + 2) {
+	-webkit-animation-delay: -2.5s;
 	animation-delay: -2.5s;
 }
 .down rect:nth-of-type(6n + 3) {
+	-webkit-animation-delay: -3.5s;
 	animation-delay: -3.5s;
 }
 .down rect:nth-of-type(6n + 4) {
+	-webkit-animation-delay: -4.5s;
 	animation-delay: -4.5s;
 }
 .down rect:nth-of-type(6n + 5) {
+	-webkit-animation-delay: -5.5s;
 	animation-delay: -5.5s;
 }
 .down rect:nth-of-type(6n + 6) {
+	-webkit-animation-delay: -6.5s;
 	animation-delay: -6.5s;
 }
 
 .name {
+	-webkit-animation-name: nombre;
 	animation-name: nombre;
+	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
+	-webkit-animation-timing-function: ease-in-out;
 	animation-timing-function: ease-in-out;
 	will-change: transform;
+	-webkit-transition: 0.5s;
 	transition: 0.5s;
+	-webkit-animation-delay: 5s;
 	animation-delay: 5s;
+	-webkit-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 
 .subtitle {
+	-webkit-animation-name: nombre;
 	animation-name: nombre;
+	-webkit-animation-duration: 0.5s;
 	animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease-in-out;
 	animation-timing-function: ease-in-out;
 	will-change: transform;
+	-webkit-transition: 0.5s;
 	transition: 0.5s;
+	-webkit-animation-delay: 5.5s;
 	animation-delay: 5.5s;
+	-webkit-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 
 .dissapear {
+	-webkit-animation-name: go;
 	animation-name: go;
+	-webkit-animation-duration: 0.5s;
 	animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease-in-out;
 	animation-timing-function: ease-in-out;
 	will-change: transform;
+	-webkit-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes unos {
+	0% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+	}
+	8% {
+		-webkit-transform: scaleY(0.6);
+		transform: scaleY(0.6);
+	}
+	16% {
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);
+	}
+	24% {
+		-webkit-transform: scaleY(0.4);
+		transform: scaleY(0.4);
+	}
+	32% {
+		-webkit-transform: scaleY(0.8);
+		transform: scaleY(0.8);
+	}
+	40% {
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);
+	}
+	48% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+	}
+	56% {
+		-webkit-transform: scaleY(0.8);
+		transform: scaleY(0.8);
+	}
+	64% {
+		-webkit-transform: scaleY(0.4);
+		transform: scaleY(0.4);
+	}
+	72% {
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);
+	}
+	80% {
+		-webkit-transform: scaleY(0.8);
+		transform: scaleY(0.8);
+	}
+	88% {
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);
+	}
+	96% {
+		-webkit-transform: scaleY(0.3);
+		transform: scaleY(0.3);
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+	}
 }
 
 @keyframes unos {
 	0% {
+		-webkit-transform: scaleY(1);
 		transform: scaleY(1);
 	}
 	8% {
+		-webkit-transform: scaleY(0.6);
 		transform: scaleY(0.6);
 	}
 	16% {
+		-webkit-transform: scaleY(0.7);
 		transform: scaleY(0.7);
 	}
 	24% {
+		-webkit-transform: scaleY(0.4);
 		transform: scaleY(0.4);
 	}
 	32% {
+		-webkit-transform: scaleY(0.8);
 		transform: scaleY(0.8);
 	}
 	40% {
+		-webkit-transform: scaleY(0.5);
 		transform: scaleY(0.5);
 	}
 	48% {
+		-webkit-transform: scaleY(1);
 		transform: scaleY(1);
 	}
 	56% {
+		-webkit-transform: scaleY(0.8);
 		transform: scaleY(0.8);
 	}
 	64% {
+		-webkit-transform: scaleY(0.4);
 		transform: scaleY(0.4);
 	}
 	72% {
+		-webkit-transform: scaleY(0.7);
 		transform: scaleY(0.7);
 	}
 	80% {
+		-webkit-transform: scaleY(0.8);
 		transform: scaleY(0.8);
 	}
 	88% {
+		-webkit-transform: scaleY(0.5);
 		transform: scaleY(0.5);
 	}
 	96% {
+		-webkit-transform: scaleY(0.3);
 		transform: scaleY(0.3);
 	}
 	100% {
+		-webkit-transform: scaleY(1);
 		transform: scaleY(1);
+	}
+}
+
+@-webkit-keyframes nombre {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100;
 	}
 }
 
@@ -193,6 +337,15 @@ path {
 	}
 	100% {
 		opacity: 100;
+	}
+}
+
+@-webkit-keyframes go {
+	0% {
+		opacity: 100;
+	}
+	100% {
+		opacity: 0;
 	}
 }
 

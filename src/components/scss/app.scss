@@ -1,9 +1,19 @@
 body {
-	background-color: black;
-	background: url("/assets/img/fondo.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: black;
 }
 
-@import "./animation.scss";
-@import "./header.scss";
+h3 {
+	color: white;
+}
+
+.backImage {
+	height: calc(100vh - 69px);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	@media (min-width: 577px) {
+		background-position: center center;
+		height: calc(100vh - 91px);
+	}
+}

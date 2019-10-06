@@ -1,24 +1,45 @@
+import "./scss/header.scss";
+
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
+import logo from "../assets/img/logo.png";
+import ChangeLang from "../utils/ChangeLang";
 
 const Header = () => {
+	const { t } = useTranslation();
+
 	return (
 		<Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-			<Navbar.Brand className="ml-3" href="#home">
+			<Link to="/" className="ml-3 navbar-brand">
 				<img
-					src="assets/img/logo.png"
+					src={logo}
 					width="150"
 					className="d-inline-block align-top"
 					alt="Sonic Den logo"
 				/>
-			</Navbar.Brand>
+			</Link>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="">
-					<Nav.Link href="#about">about</Nav.Link>
-					<Nav.Link href="#portfolio">portfolio</Nav.Link>
-					<Nav.Link href="#rentals">instruments</Nav.Link>
-					<Nav.Link href="#contact">contact</Nav.Link>
+					<Link className="nav-link" to="/about">
+						{t("About")}
+					</Link>
+
+					<Link className="nav-link" to="/portfolio">
+						{t("PortFolio")}
+					</Link>
+
+					<Link className="nav-link" to="/instruments">
+						{t("Instruments")}
+					</Link>
+
+					<Link className="nav-link" to="/contact-us">
+						{t("Contact")}
+					</Link>
+					<ChangeLang />
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
