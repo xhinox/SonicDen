@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a10b8fe3e5018574f81ba533eb533b28",
+    "revision": "bfd4ca8ad0d2d1d42d1a0fe8cbde0474",
     "url": "/sonicden/index.html"
   },
   {
-    "revision": "9c8b25a2ca2987c7c4ba",
-    "url": "/sonicden/static/css/main.05ff2980.chunk.css"
+    "revision": "674d192e17e0ac82b76a",
+    "url": "/sonicden/static/css/main.3f6a1006.chunk.css"
   },
   {
-    "revision": "ee07a8bbf64a0a7000ae",
-    "url": "/sonicden/static/js/2.97bdd0f3.chunk.js"
+    "revision": "410be199d2f7d8129ddd",
+    "url": "/sonicden/static/js/2.33476378.chunk.js"
   },
   {
-    "revision": "9c8b25a2ca2987c7c4ba",
-    "url": "/sonicden/static/js/main.3d605153.chunk.js"
+    "revision": "674d192e17e0ac82b76a",
+    "url": "/sonicden/static/js/main.4cfc6775.chunk.js"
   },
   {
     "revision": "5f42f6486e375e14a64c",
@@ -42,6 +42,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60783191920cf447aa2f460a2c295a73",
     "url": "/sonicden/static/media/f03x.60783191.jpg"
+  },
+  {
+    "revision": "d66a3cda72a2c00c0df320678f2466da",
+    "url": "/sonicden/static/media/franciscoOroz.d66a3cda.jpg"
+  },
+  {
+    "revision": "f8e9cc64eb67707cd2e9200194f6d069",
+    "url": "/sonicden/static/media/maxArnold.f8e9cc64.jpg"
   },
   {
     "revision": "4d460eba7ba86f6bf02371c443d97cb1",
