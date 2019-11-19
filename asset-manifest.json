@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sonicden/static/css/main.3f6a1006.chunk.css",
-    "main.js": "/sonicden/static/js/main.32b87723.chunk.js",
-    "main.js.map": "/sonicden/static/js/main.32b87723.chunk.js.map",
+    "main.css": "/sonicden/static/css/main.beba01e8.chunk.css",
+    "main.js": "/sonicden/static/js/main.cb8e659e.chunk.js",
+    "main.js.map": "/sonicden/static/js/main.cb8e659e.chunk.js.map",
     "runtime~main.js": "/sonicden/static/js/runtime~main.4a581c56.js",
     "runtime~main.js.map": "/sonicden/static/js/runtime~main.4a581c56.js.map",
-    "static/js/2.33476378.chunk.js": "/sonicden/static/js/2.33476378.chunk.js",
-    "static/js/2.33476378.chunk.js.map": "/sonicden/static/js/2.33476378.chunk.js.map",
+    "static/js/2.fd4ff5c5.chunk.js": "/sonicden/static/js/2.fd4ff5c5.chunk.js",
+    "static/js/2.fd4ff5c5.chunk.js.map": "/sonicden/static/js/2.fd4ff5c5.chunk.js.map",
     "index.html": "/sonicden/index.html",
-    "precache-manifest.21fe340a8051f9ad5bcdee168949c4f1.js": "/sonicden/precache-manifest.21fe340a8051f9ad5bcdee168949c4f1.js",
+    "precache-manifest.2cc116356af57869f1d6ab5985e83db3.js": "/sonicden/precache-manifest.2cc116356af57869f1d6ab5985e83db3.js",
     "service-worker.js": "/sonicden/service-worker.js",
-    "static/css/main.3f6a1006.chunk.css.map": "/sonicden/static/css/main.3f6a1006.chunk.css.map",
+    "static/css/main.beba01e8.chunk.css.map": "/sonicden/static/css/main.beba01e8.chunk.css.map",
     "static/media/f01.jpg": "/sonicden/static/media/f01.37f5e07d.jpg",
     "static/media/f01x.jpg": "/sonicden/static/media/f01x.87fbb631.jpg",
     "static/media/f02.jpg": "/sonicden/static/media/f02.4b3914c9.jpg",
@@ -18,7 +18,6 @@
     "static/media/f03.jpg": "/sonicden/static/media/f03.d6da5378.jpg",
     "static/media/f03x.jpg": "/sonicden/static/media/f03x.60783191.jpg",
     "static/media/franciscoOroz.jpg": "/sonicden/static/media/franciscoOroz.d66a3cda.jpg",
-    "static/media/maxArnold.jpg": "/sonicden/static/media/maxArnold.f8e9cc64.jpg",
-    "static/media/usa-flag.png": "/sonicden/static/media/usa-flag.4d460eba.png"
+    "static/media/maxArnold.jpg": "/sonicden/static/media/maxArnold.f8e9cc64.jpg"
   }
 }

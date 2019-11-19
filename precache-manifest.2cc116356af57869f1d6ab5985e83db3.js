@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa4725851214b1be2f246ba138e07deb",
+    "revision": "cdd3b5cccffff0588001dca89b24947d",
     "url": "/sonicden/index.html"
   },
   {
-    "revision": "b43669494623c4eac5e1",
-    "url": "/sonicden/static/css/main.3f6a1006.chunk.css"
+    "revision": "1196acaca859eea8245b",
+    "url": "/sonicden/static/css/main.beba01e8.chunk.css"
   },
   {
-    "revision": "410be199d2f7d8129ddd",
-    "url": "/sonicden/static/js/2.33476378.chunk.js"
+    "revision": "e940ec81805e0b13e5da",
+    "url": "/sonicden/static/js/2.fd4ff5c5.chunk.js"
   },
   {
-    "revision": "b43669494623c4eac5e1",
-    "url": "/sonicden/static/js/main.32b87723.chunk.js"
+    "revision": "1196acaca859eea8245b",
+    "url": "/sonicden/static/js/main.cb8e659e.chunk.js"
   },
   {
     "revision": "5f42f6486e375e14a64c",
@@ -50,9 +50,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f8e9cc64eb67707cd2e9200194f6d069",
     "url": "/sonicden/static/media/maxArnold.f8e9cc64.jpg"
-  },
-  {
-    "revision": "4d460eba7ba86f6bf02371c443d97cb1",
-    "url": "/sonicden/static/media/usa-flag.4d460eba.png"
   }
 ]);
