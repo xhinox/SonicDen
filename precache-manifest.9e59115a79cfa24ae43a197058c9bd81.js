@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b3a1aa23f2134951584617a2da3239f",
+    "revision": "d44e0afe461bb5bc07d483fb5834f5b5",
     "url": "/sonicden/index.html"
   },
   {
-    "revision": "9afefb0fe88283a8aa3a",
+    "revision": "a7c1320a0fdf31144eaa",
     "url": "/sonicden/static/css/main.beba01e8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sonicden/static/js/2.fd4ff5c5.chunk.js"
   },
   {
-    "revision": "9afefb0fe88283a8aa3a",
-    "url": "/sonicden/static/js/main.c67e6149.chunk.js"
+    "revision": "a7c1320a0fdf31144eaa",
+    "url": "/sonicden/static/js/main.2e51f40a.chunk.js"
   },
   {
     "revision": "5f42f6486e375e14a64c",
