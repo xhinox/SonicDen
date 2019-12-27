@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48bc1be8255fa0c5e911bfdd77b0e155",
+    "revision": "e9312fcfeb74ed6983169c1961d9cb5f",
     "url": "/sonicden/index.html"
   },
   {
-    "revision": "c169edb175e632d115f8",
-    "url": "/sonicden/static/css/main.b84ad7c7.chunk.css"
+    "revision": "9780e4338da07d821833",
+    "url": "/sonicden/static/css/main.f2d8da54.chunk.css"
   },
   {
-    "revision": "313292a7a69bbe0adfe5",
-    "url": "/sonicden/static/js/2.85e8f156.chunk.js"
+    "revision": "7acbb2903778e8960d94",
+    "url": "/sonicden/static/js/2.81c1d9e6.chunk.js"
   },
   {
-    "revision": "c169edb175e632d115f8",
-    "url": "/sonicden/static/js/main.024a2e00.chunk.js"
+    "revision": "9780e4338da07d821833",
+    "url": "/sonicden/static/js/main.4b619018.chunk.js"
   },
   {
     "revision": "5f42f6486e375e14a64c",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sonicden/static/media/10.b7821e4e.jpg"
   },
   {
-    "revision": "4a6737b40539dabe6c2f6b73ea369039",
-    "url": "/sonicden/static/media/f01.4a6737b4.jpg"
+    "revision": "a3ce6baccbdecf525d5cc5ca9a65c446",
+    "url": "/sonicden/static/media/INICIO.a3ce6bac.jpg"
   },
   {
     "revision": "93d11fe0cf9aa91c1c35c252a7a9022f",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa6040e152bebb4d817091e70a3d0527",
     "url": "/sonicden/static/media/f03.aa6040e1.jpg"
-  },
-  {
-    "revision": "28b12fab493a3566f4178c67f343b0c5",
-    "url": "/sonicden/static/media/f04.28b12fab.jpg"
   },
   {
     "revision": "99831c92f07da71be25246eb752ae9b1",
